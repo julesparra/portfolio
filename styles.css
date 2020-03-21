@@ -56,6 +56,28 @@ footer{
     color: #000;
 }
 
+.fa{
+  font-size: 30px;
+  width:40px;
+  text-align: right;
+  text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.linkedin{
+	color: #007bb5;
+}
+.facebook{
+	color: #3B5998;
+}
+.instagram{
+  color: #D327C3;
+}
+#socials{
+    text-align: right;
+}
+
 ul{
   list-style-type: none;
   margin: 0;
