@@ -52,18 +52,40 @@ li a{
   text-decoration: none;
   padding: 5px;
 }
-li a:hover, li a:active, li a:visited{
+li a:visited{
+  color: #95D180;
+  font-weight: bold;
+  background-color: #F8F8F8;
+  text-decoration: none;
+}
+li a:hover{
+  color: #95D180;
+  font-weight: bold;
+  background-color: #F8F8F8;
+  text-decoration: none;
+}
+li a:active{
   color: #95D180;
   font-weight: bold;
   background-color: #F8F8F8;
   text-decoration: none;
 }
 
-a{
+a:link{
   color: #95D180;
   text-decoration: none;
 }
-a:hover, a:active, a:visited{
+a:visited{
+  color: #3DBB61;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  color: #3DBB61;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:active{
   color: #3DBB61;
   font-weight: bold;
   text-decoration: none;
