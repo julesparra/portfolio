@@ -46,9 +46,10 @@ li{
 }
 
 li a{
-  color: black;
+  color: #000;
   display: block;
   text-align: center;
+  text-decoration: none;
   padding: 5px;
 }
 
@@ -56,4 +57,16 @@ li a:hover{
   color: #95D180;
   font-weight: bold;
   background-color: #F8F8F8;
+  text-decoration: none;
+}
+
+a{
+  color: #95D180;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #3DBB61;
+  font-weight: bold;
+  text-decoration: none;
 }
