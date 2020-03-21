@@ -28,7 +28,7 @@ h1, h2, h3{
   font-family: 'Anonymous Pro', monospace;
 }
 h3{
-    font-size: 90%;
+    font-size: 95%;
 }
 p, ul, a, footer{
   font-family: 'Roboto', sans-serif;
@@ -44,11 +44,14 @@ footer{
 #learnmore{
   background-color: #95D180;
   color: #fff;
-  padding: 5px 5px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-style: dashed;
+}
+#learnmore a:hover{
+    color: #000;
 }
 
 ul{
