@@ -65,7 +65,7 @@ li a:hover{
   text-decoration: none;
 }
 li a:active{
-  color: #95D180;
+  color: #000;
   font-weight: bold;
   background-color: #F8F8F8;
   text-decoration: none;
@@ -76,17 +76,17 @@ a:link{
   text-decoration: none;
 }
 a:visited{
-  color: #3DBB61;
+  color: #000;
   font-weight: bold;
   text-decoration: none;
 }
 a:hover{
-  color: #3DBB61;
+  color: #95D180;
   font-weight: bold;
   text-decoration: none;
 }
 a:active{
-  color: #3DBB61;
+  color: #000;
   font-weight: bold;
   text-decoration: none;
 }
