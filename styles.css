@@ -65,14 +65,14 @@ footer{
 .fa:hover{
     opacity: 0.7;
 }
-.linkedin{
-	color: #007bb5;
+.fa-linkedin{
+    color: #007bb5;
 }
-.facebook{
-	color: #3B5998;
+.fa-facebook{
+    color: #3B5998;
 }
-.instagram{
-  color: #D327C3;
+.fa-instagram{
+    color: #D327C3;
 }
 #socials{
     text-align: right;
