@@ -40,6 +40,14 @@ footer{
 #header{
   text-align: center;  
 }
+#learnmore{
+  background-color: #95D180;
+  color: #fff;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
 ul{
   list-style-type: none;
