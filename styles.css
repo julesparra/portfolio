@@ -38,7 +38,8 @@ footer{
 }
 
 #header{
-  text-align: center;  
+  text-align: center;
+  background-color: #F8F8F8;
 }
 #learnmore{
   background-color: #95D180;
@@ -47,6 +48,7 @@ footer{
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-style: dashed;
 }
 
 ul{
