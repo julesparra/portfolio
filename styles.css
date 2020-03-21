@@ -52,8 +52,7 @@ li a{
   text-decoration: none;
   padding: 5px;
 }
-
-li a:hover{
+li a:hover, li a:active, li a:visited{
   color: #95D180;
   font-weight: bold;
   background-color: #F8F8F8;
@@ -64,8 +63,7 @@ a{
   color: #95D180;
   text-decoration: none;
 }
-
-a:hover{
+a:hover, a:active, a:visited{
   color: #3DBB61;
   font-weight: bold;
   text-decoration: none;
