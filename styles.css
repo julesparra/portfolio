@@ -27,7 +27,7 @@
 h1, h2{
   font-family: 'Anonymous Pro', monospace;
 }
-p, ul, footer{
+p, ul, a, footer{
   font-family: 'Roboto', sans-serif;
 }
 footer{
