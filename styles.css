@@ -69,11 +69,11 @@ a:active{
 #learnmore a:hover{
     color: #CACACA;
 }
-#socials{
+/*#socials{
     text-align: right;
-}
+}*/
 .fa{
-  font-size: 100%;
+  font-size: 150%;
   text-decoration: none;
 }
 .fa:hover{
