@@ -136,9 +136,6 @@ table{
   border-collapse: collapse;
   width: 60%;
 }
-td{
-    font-width: bold;
-}
 td, th{
   border: 1px solid #95D180;
   text-align: left;
