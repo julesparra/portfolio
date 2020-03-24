@@ -8,29 +8,13 @@
 <link rel="title icon" href="browsericon.png">
     
 <script>
-    $(function(){
-		var name;
-		$("#prompt").dialog({
-            modal: true,
-            buttons:{
-                Submit: function(){
-                    name = $("#name").val();
-					$("#name_here1").append(name);
-					$("#name_here2").append(name);
-                    $("#name_here3").append(name);
-                    $("#name_here4").append(name);
-                    $("#name_here5").append(name);
-                    $("#name_here6").append(name);
-                    $(this).dialog("close");
-                }
-            },
-            hide:{
-                effect: "clip",
-                duration: 1500;
-            }
-            
-        });
-    });
+	var dialog = document.querySelector('dialog');
+	document.querySelector('#show').onclick = function(){
+		dialog.show(); 
+	};
+	document.querySelector('#close').onclick = function(){
+		dialog.close(); 
+	};
     
 </script>
     
@@ -40,10 +24,9 @@
 
 <body>
     
-<div id="prompt" title="Welcome!">
-    <label for="name">Your Name:</label>
-    <input type="text" id="name"/>
-</div>
+<dialog> <p>This is an HTML dialog! Click the button to close it.</p> <button id="close">Close Dialog</button> </dialog> <button id="show">Show Me the Dialog!</button>
+
+Read more: https://html.com/tags/dialog/#ixzz6HceYL3Vu
     
 <div class="col-16">
   <ul>
