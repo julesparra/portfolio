@@ -10,11 +10,26 @@
 <style>
     #edu{
         text-align: center;
-        background-image: url("rhsmith_bg.jpeg");
     }
+    
     #honorsprogs{
+        text-align: center;
         
     } 
+    *{
+        box-sizing: border-box;
+    }
+    .column{
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px;
+    }
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
 </style>
     
 <title>About | Jules Parra</title>
@@ -59,6 +74,16 @@
     </br>
     <div id="honorsprogs">
         <p style="font-size: 115%">Honors Programs</p>
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+                <h4>QUEST Honors Program</h4>
+                <p>Some text..</p>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+                <h4>Science, Technology & Society Scholars</h4>
+                <p>Some text..</p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -73,7 +98,7 @@
     
 <div class="col-16">
     <footer>
-            <hr>
+        <hr>
         <p style="content-align: center;">Jules Parra | © 2020</p>
     </footer>
 </div>
