@@ -26,13 +26,53 @@
         display: table;
         clear: both;
     }
+    
+    .ui-widget-overlay{
+        background-color: cadetblue;
+    }
+	.ui-dialog, .ui-dialog-buttonpane{
+		background-color: goldenrod;
+	}
+	.ui-dialog-content{
+		color: black;
+	}
+    .title_changed{
+        color: royalblue;
+    }
+    .dialogClosed{
+        display: none;
+    }
+    .dialogOpen{
+        display: block;
+    }
 </style>
+    
+<script>
+    $(function(){
+		$("#prompt").dialog({
+            modal: true,
+            buttons:{
+                Submit: function(){
+                    $(this).dialog("close");
+                }
+            },
+            hide:{
+                effect: "clip",
+                duration: 1500
+            }
+            
+        });
+    });
+</script>
     
 <title>About | Jules Parra</title>
 
 </head>
 
 <body>
+<div id="prompt" title="Welcome!!!">
+    <p>Hello!</p>
+</div>
     
 <div class="col-16">
   <ul>
