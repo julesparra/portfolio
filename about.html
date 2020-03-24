@@ -7,11 +7,43 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="title icon" href="browsericon.png">
     
+<script>
+    $(function(){
+		var name;
+		$("#prompt").dialog({
+            modal: true,
+            buttons:{
+                Submit: function(){
+                    name = $("#name").val();
+					$("#name_here1").append(name);
+					$("#name_here2").append(name);
+                    $("#name_here3").append(name);
+                    $("#name_here4").append(name);
+                    $("#name_here5").append(name);
+                    $("#name_here6").append(name);
+                    $(this).dialog("close");
+                }
+            },
+            hide:{
+                effect: "clip",
+                duration: 1500;
+            }
+            
+        });
+    });
+    
+</script>
+    
 <title>About | Jules Parra</title>
 
 </head>
 
 <body>
+    
+<div id="prompt" title="Welcome!">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name"/>
+</div>
     
 <div class="col-16">
   <ul>
