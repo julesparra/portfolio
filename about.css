@@ -1,0 +1,33 @@
+#edu, #honorsprogs, #coursework{
+    text-align: center;
+}
+    
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 175px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+.ui-widget-overlay{
+    background-color: #77787A;
+}
+.ui-dialog, .ui-dialog-buttonpane{
+    background-color: #95D180;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 85%;
+}
+.dialogClosed{
+    display: none;
+}
+.dialogOpen{
+    display: block;
+}
