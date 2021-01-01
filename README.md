@@ -1,11 +1,11 @@
 # julesparra
-👋🏼Jules Parra's professional website!
+👋🏼 Jules Parra's professional website!
 
-✨Fonts
+✨ Fonts
 Headings: Josefin Sans, sans serif
 Copy: Open Sans, sans serif
 
-⚡️Colors
+⚡️ Colors
 Grey background: #CACACA
 Green accent: #95D180
 Blue accent: #80BED1
