@@ -2,8 +2,8 @@
 👋🏼Jules Parra's professional website!
 
 ✨Fonts
-Headings: Anonymous Pro, monospace
-Copy: Roboto, sans serif
+Headings: Josefin Sans, sans serif
+Copy: Open Sans, sans serif
 
 ⚡️Colors
 Grey background: #CACACA
