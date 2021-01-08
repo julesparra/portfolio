@@ -7,3 +7,5 @@ Copy: Open Sans, sans serif
 
 ⚡️ Colors
 Green accent: #4CAF50
+Light Grey background: #FEFEFE
+Dark Grey background: #C0C0C0

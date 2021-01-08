@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- bootstrap v4.5.- cdn + minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- stylesheets & fonts -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -19,39 +20,40 @@
 <body>
 <div class="row">
   <div class="col-md-12">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" target="_blank"><h3><a id="header" href="index.html">Jules Parra</a></h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a href="about.html">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="projects.html">Projects</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item active">
                     <div class="dropdown">
                         <button class="dropbtn">Resume</button>
                         <div class="dropdown-content">
-                            <a href="#">Business Resume</a>
-                            <a href="#">Technology Resume</a>
+                            <a href="https://drive.google.com/file/d/1pflP-rD_ZJo93HfnTrAjOOwxaYDMD8Jn/view?usp=sharing" target="_blank">Business Resume</a>
+                            <a href="#" target="_blank">Technology Resume</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item active">
-                    <a href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
+            <span class="navbar-text">
+                <div class="navbar-right">
+                    <a class="fa fa-linkedin-square" style="font-size:30px" href="https://www.linkedin.com/in/julesparra/" target="_blank"></a>
+                    <a class="fa fa-envelope-o" style="font-size:30px" href="mailto:julianarparra@gmail.com"></a>
+                </div>
+            </span>
         </div>
       </nav>
-      <h3 class="text-center"><a id="header" href="index.html">Jules Parra</a></h3>
-      <!-- FIX SOCIALS ICONS: LINKEDIN & EMAIL (+ add to footer)-->
-      <div id="socials">
-          <i class="fab fa-linkedin-in"></i>
-          <a href="mailto:julianarparra@gmail.com"></a>
-      </div>
   </div>
 </div>
     
@@ -59,31 +61,105 @@
     <div class="col-md-1"></div>
     <div class="col-md-5" style="padding-top: 5%;">
         <h2>&#9889; Nice to meet ya!</h2>
-        <p style="font-size: 150%">I'm Jules (she/they), an information systems and Spanish student at the University of Maryland. I'm a proud queer, latinx person.</p>
+        <p style="font-size: 150%">I'm Jules (she/her), an information systems and Spanish student at the University of Maryland. I'm a proud queer, latinx person.</p>
         <br>
         <h3 style="font-size: 150%">&#128161; What I'm up to</h3>
             <ul style="list-style-type: disc; padding-left: 7%;">
-                <li><p>As a <i>Technology Organizer at Technica</i>, the world's largest all-female and non-binary hackathon, I develop our website that hackers use to learn about and register for the event. I have loved incorporating more accessible design and development practices and working with talented student developers. Check out our projects on our GitHub profile <!--<a href="https://github.com/gotechnica" target="_blank" style="color: #4CAF50; text-decoration: underline; border-bottom: none;">here</a>!--></p></li>
-                <li>As a <i>member of the QUEST Honors Program</i> -- the highly selected joint program with the Robert H. Smith School of Business, A. James Clark School of Engineering, and College of Computer, Mathematical, and Natural Sciences -- I collaborate with business, engineering, and science students to consult for UMD offices, local businesses, and multi-national companies. </li>
+                <li><p>As a <b>Technology Organizer at Technica</b>, the world's largest all-female and non-binary hackathon, I develop our website that hackers use to learn about and register for the event. I have loved incorporating more accessible design and development practices and working with talented student developers. Check out our projects on our GitHub profile <!--<a href="https://github.com/gotechnica" target="_blank" style="color: #4CAF50; text-decoration: underline; border-bottom: none;">here</a>!--></p></li>
+                <li>As a <b>member of the QUEST Honors Program</b> -- the highly selective joint program with the Robert H. Smith School of Business; A. James Clark School of Engineering; and College of Computer, Mathematical, and Natural Sciences -- I collaborate with business, engineering, and science students to consult for UMD offices, local businesses, and global companies. </li>
             </ul>
         <br>
-        <p style="font-size: 150%;">Through collaborating in and leading diverse, multidisciplinary teams at the intersection of business, technology, and design, I strive to design and develop modern, international, and accessible products. </p>
+        <p style="font-size: 150%;">Through collaborating in and leading diverse, multidisciplinary teams at the intersection of business, technology, and design, I strive to work on modern, international, and accessible technology solutions.</p>
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-4">
-        <img src="img/professional-headshot.JPG" height="700" width="450">
+        <img src="img/professional-headshot.JPG" height="700" width="450" style="padding-top: 10%;">
     </div>
     <div class="col-md-1"></div>
 </div>
+    
+<br>
+<div id="programs">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>&#128262; Honors Programs</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md" id="program-highlight">
+            <h3 id="about-subheading">Quality Enhancement Systems and Teams (QUEST)</h3>
+            <p>Three-year interdisciplinary program enabling business, engineering, and science students, engineers to collaborate in teams to complete and present consulting projects for real businesses</p>
+            <a class="btn btn-primary" id="program-btn" href="https://www.rhsmith.umd.edu/fellows/quest" target="_blank" role="button">Learn More</a>
+        </div>
+        <div class="col-md" id="program-highlight">
+            <h3 id="about-subheading">Science, Technology and Society (STS) Scholars</h3>
+            <p>Two-year living and learning program that explores the social, ethical, and political relationships of technology through research, collaborative activities, user-centered design projects, and service learning</p>
+            <a class="btn btn-primary" id="program-btn" href="https://scholars.umd.edu/programs/sts" target="_blank" role="button">Learn More</a>
+        </div>
+    </div>
+</div>
+    
+<br><br>
+<div id="courses">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>&#128218; Relevant Coursework</h2>
+            <p>"A" or "A+" earned in each course</p>
+        </div>
+        <br>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <h3 id="about-subheading">Technology and Consequences: Engineering, Ethics, and Humanity (ENEE200)</h3>
+            <p class="course-prof">Professor Dr. Logan Williams (Fall 2019)</p>
+            <p>Explored and assessed the impact of engineering technology on society and the role of society in generating that technology through regular discussion, case studies, <a href="https://docs.google.com/presentation/d/18IqDKhZ8yNIQbzUv_bknL-q72ECSlQzNyjQci1e6zSI/edit?usp=sharing" target="_blank">independent research on a current technology</a>, a <a href="https://drive.google.com/drive/folders/1VbXsbMzfsXEyYEACef3TafEtPdcDR1XU?usp=sharing" target="_blank">team-based hands-on ethics lesson</a>, and a <a href="https://drive.google.com/drive/folders/1cjtkJ7U0WBCpTxudqpCKwfqIdaWe1OXf?usp=sharing" target="-blank">personal ethics portfolio</a>. Employed and practiced critical thinking, collaboration, and presentation skills.</p>
+        </div>
+        <div class="col-md">
+            <h3 id="about-subheading">Advanced Grammar and Composition I (SPAN301)</h3>
+            <p class="course-prof">Profesor Jackson Monzón (Fall 2019)</p>
+            <p>Alongside grammar and culture lessons with regular discussion, composed several journalistic pieces including a persuasive essay, narration of a historical event, and an editorial, as well as a cover letter. Compiled, corrected, and reflected on these works to form a <a href="https://drive.google.com/open?id=1O0J3iYQFlFjWMLIJ2pHG845dI1ihAuHq" target="_blank">final portfolio</a>. Entirely in Spanish.</p>
+        </div>
+        <div class="col-md">
+            <h3 id="about-subheading">Technology, Education, and Society: Ecuador in Context (CPSP279T)</h3>
+            <p class="course-prof">Professor Timothy Reedy (Winter 2020 Study Abroad)</p>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md">
+            <h3 id="about-subheading">Introduction to Design and Quality (BMGT190H)</h3>
+            <p class="course-prof">Professor Dr. Pamela Armstrong (Fall 2020)</p>
+        </div>
+        <div class="col-md">
+            <h3 id="about-subheading">Advanced Communication I (SPAN311)</h3>
+            <p class="course-prof">Profesora Nélida Devesa Gómez (Fall 2020)</p>
+        </div>
+        <div class="col-md">
+            <h3 id="about-subheading">The Future of Science Communication (CPSS220)</h3>
+            <p class="course-prof">Professor Dr. Nicole Mogul (Fall 2020)</p>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md">
+            <h3 id="about-subheading">Applied Cloud Computing in Information Systems</h3>
+            <p class="course-prof">Students Graham Shuckman and Nicholas Summers (Fall 2020)</p>
+        </div>
+    </div>
+</div>
 
 <div class="row">
-    <div class="col-12">
+    <div class="col-md-12">
         <footer>
             <hr>
-            <p style="content-align: center;">Jules Parra © 2021 | Last Updated: January 1, 2021</p>
+            <p style="content-align: center;">Jules Parra © 2021 | Last Updated: January 8, 2021</p>
         </footer>
     </div>
 </div>
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 </body>
 </html>

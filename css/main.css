@@ -1,30 +1,34 @@
-h1, h2, h3, h4, h5, h6{
+body {
+    background-color: #FEFEFE;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
 }
-h3{
+h3 {
     font-size: 95%;
 }
-p, ul, a, footer{
+p, ul, a, footer {
   font-family: 'Open Sans', sans-serif;
 }
-a, a:active, a:visited{
+a, a:active, a:visited {
   color: #4CAF50;
   text-decoration: underline;
 }
-a:hover{
+a:hover {
   color: #4CAF50;
   opacity: 85%;
 }
 
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 1%;
 }
-li{
+li {
   float: left;
 }
-li a{
+li a {
   color: #000;
   display: block;
   padding: 7px;
@@ -32,9 +36,8 @@ li a{
   transition: border-bottom 0.25s;
   text-decoration: none;
 }
-li a:hover{
+li a:hover {
   color: #000;
-  /*background-color: #4CAF50;*/
   text-decoration: none;
   border-bottom: 0.5px solid #000;
 }
@@ -43,20 +46,28 @@ li a:active {
   text-decoration: none;
   border-bottom: 0.5px solid #000;
 }
-li a:visited{
+li a:visited {
   color: #000;
   text-decoration: none;
+}
+
+#header {
+    color: #000;
+    font-size: 250%;
+    text-decoration: none;
 }
 
 .dropbtn {
   margin-top: 8%;
   font-size: 105%;
   color: #000;
+  background-color: none;
   border: none;
 }
 .dropdown {
   position: relative;
   display: inline-block;
+    background-color: none;
 }
 .dropdown-content {
   display: none;
@@ -79,24 +90,16 @@ li a:visited{
     display: block;
 }
 
-#header{
-    color: #000;
-    font-size: 225%;
-    font-weight: 200;
+.fa, .fa:active, .fa:visited {
+    color: #4CAF50;
     text-decoration: none;
 }
-
-/*#socials{
-    text-align: right;
+.fa:hover {
     color: #4CAF50;
-}.fa{
-  font-size: 150%;
-  text-decoration: none;
+    text-decoration: none;
+    opacity: 75%;
 }
-.fa:hover{
-    opacity: 0.7;
-}*/
 
-footer{
+footer {
   text-align: center;
 }

@@ -1,0 +1,23 @@
+#about-subheading {
+    font-size: 115%;
+}
+
+#program-btn {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+#courses, #programs {
+    text-align: center;
+}
+.course-prof {
+    color: #4CAF50;
+    font-weight: bold;
+}
+#program-highlight {
+    background-color: #C0C0C0;
+    padding: 1%;
+    margin: 1.75%;
+}

@@ -1,13 +1,6 @@
-table{
-    font-family: 'Roboto', sans-serif;
-    border-collapse: collapse;
-    width: 60%;
-}
-td, th{
-    border: 1px solid #95D180;
-    text-align: left;
-    padding: 8px;
-}
-tr:nth-child(even){
-    background-color: #95D180;
+#linkedin-btn {
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
 }
