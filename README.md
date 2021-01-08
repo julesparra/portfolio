@@ -1,5 +1,5 @@
 # julesparra
-👋 🏼Jules Parra's professional website!
+👋 Jules Parra's professional website!
 
 ✨ Fonts
 Headings: Josefin Sans, sans serif
