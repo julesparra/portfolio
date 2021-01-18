@@ -11,6 +11,10 @@ h3 {
 p, ul, a, footer {
   font-family: 'Open Sans', sans-serif;
 }
+img {
+    border-radius: 10%;
+}
+
 a, a:active, a:visited {
   color: #4CAF50;
   text-decoration: underline;
@@ -30,8 +34,8 @@ li {
 }
 li a {
   color: #000;
-  display: block;
-  padding: 7px;
+  /*display: block;
+  padding: 7px;*/
   border-bottom: 0.5px solid transparent;
   transition: border-bottom 0.25s;
   text-decoration: none;
@@ -98,6 +102,10 @@ li a:visited {
     color: #4CAF50;
     text-decoration: none;
     opacity: 75%;
+}
+
+#nav-footer{
+    font-size: 125%;
 }
 
 footer {

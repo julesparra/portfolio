@@ -1,5 +1,8 @@
 #about-subheading {
     font-size: 115%;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 15%;
 }
 
 #program-btn {
@@ -11,6 +14,7 @@
 
 #courses, #programs {
     text-align: center;
+    padding: 2%;
 }
 .course-prof {
     color: #4CAF50;
@@ -20,7 +24,4 @@
     background-color: #C0C0C0;
     padding: 1%;
     margin: 1.75%;
-}
-b {
-    font-weight: 200%;
 }
