@@ -1,8 +1,24 @@
 body {
     background-color: #FEFEFE;
 }
-main {
-    animation: fadeIn ease 2.5s;
+#slide-transition {
+    animation: slideIn ease 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes slideIn {
+  from {
+    margin-top: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+#fade-transition {
+    animation: fadeIn ease 2s;
     animation-iteration-count: 1;
     animation-direction: normal;
 }
@@ -69,9 +85,9 @@ li a:visited {
 }
 
 #header {
-    color: #000;
-    font-size: 250%;
-    text-decoration: none;
+  color: #000;
+  font-size: 250%;
+  text-decoration: none;
 }
 
 .dropbtn {
@@ -101,24 +117,24 @@ li a:visited {
   display: block;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .fa, .fa:active, .fa:visited {
-    color: #4CAF50;
-    text-decoration: none;
+  color: #4CAF50;
+  text-decoration: none;
 }
 .fa:hover {
-    color: #4CAF50;
-    text-decoration: none;
-    opacity: 75%;
+  color: #4CAF50;
+  text-decoration: none;
+  opacity: 75%;
 }
 
 #nav-footer{
-    font-size: 125%;
+  font-size: 125%;
 }
 
 footer {
