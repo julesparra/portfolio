@@ -1,10 +1,10 @@
 body {
-    background-color: #FEFEFE;
+  background-color: #fefefe;
 }
 #slide-transition {
-    animation: slideIn ease 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
+  animation: slideIn ease 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
 @keyframes slideIn {
   from {
@@ -18,38 +18,48 @@ body {
   }
 }
 #fade-transition {
-    animation: fadeIn ease 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
-@keyframes fadeIn { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
 }
 h3 {
-    font-size: 95%;
+  font-size: 95%;
 }
-p, ul, a, footer {
-  font-family: 'Open Sans', sans-serif;
+p,
+ul,
+a,
+footer {
+  font-family: "Open Sans", sans-serif;
 }
 img {
-    border-radius: 10%;
+  border-radius: 10%;
 }
 
-a, a:active, a:visited {
-  color: #4CAF50;
+a,
+a:active,
+a:visited {
+  color: #4caf50;
   text-decoration: underline;
 }
 a:hover {
-  color: #4CAF50;
+  color: #4caf50;
   opacity: 85%;
 }
 
@@ -100,14 +110,14 @@ li a:visited {
 .dropdown {
   position: relative;
   display: inline-block;
-    background-color: none;
+  background-color: none;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .dropdown-content a {
@@ -123,17 +133,19 @@ li a:visited {
   display: block;
 }
 
-.fa, .fa:active, .fa:visited {
-  color: #4CAF50;
+.fa,
+.fa:active,
+.fa:visited {
+  color: #4caf50;
   text-decoration: none;
 }
 .fa:hover {
-  color: #4CAF50;
+  color: #4caf50;
   text-decoration: none;
   opacity: 75%;
 }
 
-#nav-footer{
+#nav-footer {
   font-size: 125%;
 }
 
