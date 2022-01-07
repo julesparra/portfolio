@@ -1,27 +1,28 @@
 #about-subheading {
-    font-size: 115%;
-    text-decoration: underline;
-    text-decoration-color: white;
-    text-decoration-thickness: 15%;
+  font-size: 115%;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 15%;
 }
 
 #program-btn {
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #4CAF50;
-    border-color: #4CAF50;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #4caf50;
+  border-color: #4caf50;
 }
 
-#courses, #programs {
-    text-align: center;
-    padding: 2%;
+#courses,
+#programs {
+  text-align: center;
+  padding: 2%;
 }
 .course-prof {
-    color: #4CAF50;
-    font-weight: bold;
+  color: #4caf50;
+  font-weight: bold;
 }
 #program-highlight {
-    background-color: #C0C0C0;
-    padding: 1%;
-    margin: 1.75%;
+  background-color: #c0c0c0;
+  padding: 1%;
+  margin: 1.75%;
 }
