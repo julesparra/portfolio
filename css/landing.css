@@ -1,0 +1,23 @@
+#landing-headshot,
+#landing-blurb {
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 630px) {
+  #landing-headshot {
+    height: 100%;
+    width: 75%;
+    padding-left: 25%;
+    border-radius: 50%;
+  }
+  #landing-blurb {
+    padding: 5% 12% 0% 12%;
+  }
+}
+
+@media only screen and (min-width: 631px) and (max-width: 1300px) {
+  #landing-headshot {
+    height: 50%;
+    width: 50%;
+  }
+}

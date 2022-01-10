@@ -49,7 +49,7 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 img {
-  border-radius: 10%;
+  border-radius: 15%;
 }
 
 a,
@@ -151,4 +151,13 @@ li a:visited {
 
 footer {
   text-align: center;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 994px) {
+  .nav-item,
+  .fa-linkedin-square,
+  .fa-envelope-o {
+    padding-left: 3%;
+  }
 }
